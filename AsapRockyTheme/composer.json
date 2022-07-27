@@ -1,0 +1,18 @@
+{
+  "name": "swag/theme-skeleton",
+  "description": "AsapRockyTheme",
+  "type": "shopware-platform-plugin",
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "AsapRockyTheme\\": "src/"
+    }
+  },
+  "extra": {
+    "shopware-plugin-class": "AsapRockyTheme\\AsapRockyTheme",
+    "label": {
+      "de-DE": "Theme AsapRockyTheme plugin",
+      "en-GB": "Theme AsapRockyTheme plugin"
+    }
+  }
+}

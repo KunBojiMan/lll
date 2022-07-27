@@ -1,0 +1,11 @@
+{% sw_extends '@Storefront/storefront/page/content/index.html.twig' %}
+
+{% block base_main %}
+    
+    {# Using asset function to display our custom asset #}
+    <img src="{{ asset('bundles/asaprockytheme/women.jpeg', 'asset') }}">
+   
+      {{ parent() }}
+{% endblock %}
+
+
